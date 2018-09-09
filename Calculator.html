@@ -1,0 +1,49 @@
+<!DOCTYPE html5>
+
+<html>
+
+    <head class="head">
+        <title> Calculator </title>
+        <h1>Calculator</h1>
+        <link rel = "stylesheet" href = "Calculator.css" />
+        <script type = "text/javascript" src = "Calculator.js"></script>
+    </head>
+
+    <body onload = "loadPage()">
+       
+        <div class="calculator"> 
+
+            <div class="display">0</div>
+                <br/><br/> 
+
+            <div class = "calc-keys">
+        
+                <button class = "operator key" id = "add" data-action = "add">+</button>
+                <button class = "operator key" id = "sub" data-action = "sub">-</button>
+                <button class = "operator key" id = "multiply" data-action = "multiply">&times;</button>
+                <button class = "operator key" id = "divide" data-action = "divide">&divide;</button>
+                <br/>
+                <button class = "number key" id = "seven">7</button>
+                <button class = "number key" id = "eight">8</button>
+                <button class = "number key" id = "nine">9</button>
+                <button class = "equal key" data-action = "calculate" >=</button>
+                <br/>
+                <button class = "number key" id = "four">4</button>
+                <button class = "number key" id = "five">5</button>
+                <button class = "number key" id = "six">6</button>
+                <br/>
+                <button class = "number key" id = "one">1</button>
+                <button class = "number key" id = "two">2</button>
+                <button class = "number key" id = "three">3</button>
+                <br/>
+                <button class = "number key" id = "zero">0</button>
+                <button class = "number key" id ="dot" data-action = "dot" >.</button>
+                <button class = "clean key" id = "ac" data-action = "clean" >AC</button>
+            </div>
+
+            <p class="footer">Copyright © by Saar Weitzman. All rights reserved.</p>
+        </div>
+        
+    </body>
+
+</html>
